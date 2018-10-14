@@ -1,0 +1,63 @@
+
+Многолетний опыт применения экструдированного пенополистирола в различных отраслях строительства доказывает высокую эффективность его использования. Наша компания производит экструдированный пенополистирол на высококачественном европейском оборудовании, соблюдая мировые стандарты качества. Торговая марка NOVABOARD много лет на украинском рынке и за это время мы не только вышли на лидирующие позиции, но и доказали, что NOVABOARD– это гарантия качества, проверенная временем. Наш бренд - это наша репутация. Мы завоевываем ее, легко справляясь с любыми задачами. Это понимают наши партнеры в процессе взаимодействия с нами.
+
+
+
+
+<a href="tel:+380552314410" class="phones-and-email">тел:+38(0552)314-410,</a>
+			<a href="tel:+380552314403" class="phones-and-email">314-403;</a> 
+			<a href="fax:+380552359214" class="phones-and-email">факс:+38(0552)359-214</a>
+			<a href= class="phones-and-email">e-mail:info@penoboard.com</p>
+
+phones-and-email-link {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: right;
+	color: #2c2783;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+.phones-and-email::hover {
+	text-decoration: underline;
+}
+
+.phones-and-email::active {
+	text-decoration: none;
+	color: #000;
+}
+
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-imgonline-com-ua-Resize-25MqbRxFba {
+    width: 21px;
+    height: 21px;
+    background-position: -5px -5px;
+}
+
+.sprite-imgonline-com-ua-Resize-RC6Wzl43e4yD07ky {
+    width: 21px;
+    height: 21px;
+    background-position: -36px -5px;
+}
+
+.sprite-linkedin-icon {
+    width: 21px;
+    height: 21px;
+    background-position: -67px -5px;
+}
+
+.sprite-vk-icon {
+    width: 21px;
+    height: 21px;
+    background-position: -98px -5px;
+}
+.email-only {
+	padding-right: 202px;
+}
