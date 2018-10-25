@@ -1263,14 +1263,15 @@ header .container {
 
 .rewards-img {
 	width: 110px;
-	height: 96px;
+	height: auto;
+	margin-bottom: 30px;
 }
 
 .contacts-map-block {
 	text-align: center;
 	display: inline-block;
 	width: 100%;
-	height: 530px;
+	height: 525px;
 	position: relative;
 	
 }
@@ -1349,15 +1350,22 @@ header .container {
 	text-align: center;
 	display: inline-block;
 	width: 100%;
-	height: auto;
+	height: 312px;
 	position: relative;	
+}
+
+.footer .container {
+	width: 1255px;
+	padding: 0 15px;
+	text-align: center;
+	position: relative;
 }
 
 .footer-background {
 	position: relative;
 	background: #01983b url(design/pattern.png) repeat;
 	width: 100%;
-	height: 400px;
+	height: 316px;
 	display: block;
 	z-index: -3;
 }
@@ -1371,6 +1379,7 @@ header .container {
 .social-networks-duplicated .blue-logo{
 	color: #fff;
 	top: -68px;
+	margin-bottom: 0;
 }
 
 .copyright-line,
@@ -1383,33 +1392,38 @@ header .container {
 }
 
 .copyright-line {
-	top: -28px;
+	margin-top: -76px;
 }
 
 .social-networks-title-lowercase {
-	top: -18px;
+	margin: 0 0 8px 0;
 }
 
-.additional-info{
-	top: -8px;
+.footer .social-networks-list {
+	margin: 0 0 100px 0;
+}
+
+.additional-info {
+	margin: 0;
 }
 
 .transparent-logo {
 	position: absolute;
     width: 100%;
-    height: 400px;
-    top: 100px;
+    height: 212px;
+    top: 85px;
     text-align: center;
     background: url(design/NOVABOARD-big-logo.png) no-repeat;
     opacity: 0.1;
     display: block;
     z-index: -2;
+    margin: 0;
 }
 
 .transparent-image {
 	position: absolute;
     width: 100%;
-    height: 400px;
+    height: 312px;
     top: 0;
     text-align: center;
     background: url(design/bubbles-1.png) no-repeat;
@@ -1421,8 +1435,8 @@ header .container {
 .social-networks-duplicated {
 	position: absolute;
     width: 100%;
-    height: 400px;
-    top: 20px;
+    height: 290px;
+    top: 25px;
     left: 0;
     text-align: center;
     display: inline-block;
