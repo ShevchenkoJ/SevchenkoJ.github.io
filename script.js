@@ -1,3 +1,4 @@
+$( document ).ready(function() {
 
 $('.slider-1-container').owlCarousel({
     loop:true,
@@ -17,3 +18,19 @@ $('.slider-2-container').owlCarousel({
     items:5,
     autoplay:false,
 })
+
+function pop_up(){
+    $('.certificate-slide').click(function(){
+        $('.certificate-slide-pop-up').attr('src',$(this).attr('src'));
+        $('.certificate-slide-pop-up').attr('alt',$(this).attr('alt'));
+        $('.gallery-pop-up').show();
+    })
+
+    $('.gallery-close , .gallery-shadow').click(function(){
+        $('.gallery-pop-up').hide();
+    })
+}
+
+pop_up();
+
+});
