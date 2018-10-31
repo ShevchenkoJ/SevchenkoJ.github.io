@@ -273,7 +273,7 @@ header .container {
 	z-index: 0;
 }
 
-.slide-item {
+.slider-item {
 	position: relative;
 	
 }
@@ -295,7 +295,7 @@ header .container {
 }
 
 .slide-title {
-	font-family: EuropeExt-Normal;
+	font-family: EuropeExt-Normal, Arial;
 	font-size: 30px;
 	color: #fff;
 	text-transform: uppercase;
@@ -305,7 +305,7 @@ header .container {
 }
 
 .slide-text {
-	font-family: EuropeExt-Bold;
+	font-family: EuropeExt-Bold, Arial;
 	font-weight: bold;
 	font-size: 24px;
 	color: #fff;
@@ -483,7 +483,7 @@ header .container {
 }
 
 .blue-logo {
-	font-family: EuropeExt-Bold;
+	font-family: EuropeExt-Bold, Arial;
 	font-size: 40px;
 	text-transform: uppercase;
 	color: #01983b;
@@ -492,7 +492,7 @@ header .container {
 	margin-top: 70px;
 }
 .green-logo {
-	font-family: EuropeExt-Bold;
+	font-family: EuropeExt-Bold, Arial;
 	font-size: 40px;
 	text-transform: uppercase;
 	color: #2c2783;
@@ -502,7 +502,7 @@ header .container {
 }
 
 .block-title {
-	font-family: EuropeExt-Bold;
+	font-family: EuropeExt-Bold, Arial;
 	font-size: 30px;
 	text-transform: uppercase;
 	padding: 0;
@@ -554,7 +554,7 @@ header .container {
 }
 
 .button-link {
-	font-family: EuropeExt-Bold;
+	font-family: EuropeExt-Bold, Arial;
 	font-size: 24px;
 	line-height: 42px;
 	color: #fff;
@@ -802,7 +802,7 @@ header .container {
 }
 
 .white-logo-name {
-	font-family: EuropeExt-Bold;
+	font-family: EuropeExt-Bold, Arial;
 	font-weight: bold;
 	font-size: 21px;
 	text-transform: uppercase;
@@ -1033,7 +1033,8 @@ header .container {
 	position: absolute;
 	left: 150px;
     top: 140px;
-    width: 980px;
+    max-width: 980px;
+    width: auto;
     height: 550px;
 	border: 3px solid #d5dfec;
 	border-collapse: collapse;
