@@ -24,6 +24,7 @@ function pop_up(){
         $('.certificate-slide-pop-up').attr('src',$(this).attr('src'));
         $('.certificate-slide-pop-up').attr('alt',$(this).attr('alt'));
         $('.gallery-pop-up').show();
+        $('.gallery-window-wrapper').css("height" , $('.certificate-slide-pop-up').height() + 10 );
     })
 
     $('.gallery-close , .gallery-shadow').click(function(){
