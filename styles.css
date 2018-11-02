@@ -1058,8 +1058,7 @@ header .container {
 	position: absolute;
 	left: 150px;
     top: 140px;
-    max-width: 980px;
-    width: auto;
+    width: 980px;
     height: 550px;
 	border: 3px solid #d5dfec;
 	border-collapse: collapse;
@@ -1567,3 +1566,12 @@ header .container {
     	display: none;
     }
 }
+
+@media only screen and (max-width: 1260px) {
+    .table-technical-features {
+    	width:100%;
+    	left:0;
+    }
+ 
+}
+
