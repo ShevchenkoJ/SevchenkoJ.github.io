@@ -1,4 +1,18 @@
+// ie fix 
+function init_shadow_size() {
+    $('.table-tasks-row').each(function(){
+        $(this).find('.table-shadow-row').css('height' , $(this).height());
+    });
+}
+
+
 $( document ).ready(function() {
+
+init_shadow_size();
+
+$( document ).resize(function() {
+    init_shadow_size();
+})
 
 $('.slider-1-container').owlCarousel({
     loop:true,

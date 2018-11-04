@@ -462,8 +462,9 @@ header .container {
 .video-image-front {
   z-index: -1;
   position: absolute;
-  left: -250px;
-  top: 20px;
+  left: -268px;
+  top: 37px;
+
 }
 
 .video-container {
@@ -544,6 +545,10 @@ header .container {
   border: 1px #000 solid;
 }
 
+.redactable-paragraphs-container {
+  margin-top: 46px;
+}
+
 .redactable-paragraphs {
   font-family: Arial;
   font-size: 14px;
@@ -551,7 +556,7 @@ header .container {
   width: 830px;
   line-height: 17px;
   text-align: center;
-  margin: 25px 0 0 0;
+  margin: 22px 0 0 0;
   padding: 0;
   display: inline-block;
 }
@@ -564,7 +569,7 @@ header .container {
   border-radius: 3px;
   padding-top: 12px;
   margin-top: 17px;
-  margin: 20px 0;
+  margin: 48px 0;
   box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
   display: inline-block;
 }
@@ -599,7 +604,7 @@ header .container {
 }
 
 .usage-title {
-  margin: 46px 0 28px 0;
+  margin: 12px 0 22px 0;
   color: #073d79;
 }
 
@@ -608,6 +613,7 @@ header .container {
   display: inline-block;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 .usage-column-1 {
@@ -761,6 +767,8 @@ header .container {
   padding-right: 30px;
   margin-bottom: 6px;
   z-index: 2;
+  clear: left;
+  float: left;
 }
 
 .usage-item-column-2:before {
@@ -1017,7 +1025,7 @@ header .container {
 .block-with-table .left {
   position: absolute;
   left: 0;
-  top: 200px;
+  top: 220px;
   height: 372px;
   width: auto;
   z-index: -2
@@ -1026,7 +1034,7 @@ header .container {
 .block-with-table .right {
   position: absolute;
   right: 0;
-  top: 200px;
+  top: 220px;
   height: 372px;
   width: auto;
   z-index: -2
@@ -1035,9 +1043,9 @@ header .container {
 .block-with-table .table-image-front {
   z-index: -1;
   position: absolute;
-  right: 76px;
+  right: 35px;
   width: 560px;
-  top: 409px;
+  top: 402px;
   transform: scale(-1, 1);
 }
 
@@ -1061,7 +1069,7 @@ header .container {
 .block-logo {
   position: relative;
   text-align: center;
-  margin-top: -35px;
+  margin-top: -10px;
   z-index: 4;
 }
 
@@ -1081,6 +1089,7 @@ header .container {
   border: 3px solid #d5dfec;
   border-collapse: collapse;
   box-sizing: border-box;
+  margin-top: 20px;
 }
 
 .table-features-head {
@@ -1144,6 +1153,7 @@ header .container {
 .block-with-tasks .container {
   text-align: center;
   position: relative;
+  margin-top: 21px;
 }
 
 .tasks-title {
@@ -1206,33 +1216,33 @@ header .container {
   width: 370px;
 }
 
-.table-tasks-cell:nth-child(2n+1):before {
+.table-tasks-cell:nth-child(2n+1) .table-shadow-row {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: -47px;
+  width: 47px;
+  height: 100%;
+  background-color: rgba(255, 0, 0, 0.4);
+}
+
+.table-tasks-cell:nth-child(2n+1) .table-shadow-row:after {
   content: '';
   position: absolute;
   top: 0px;
   left: -47px;
   width: 47px;
   height: 100%;
-  display: block;
-  background-color: rgba(255, 0, 0, 0.4);
-}
-
-.table-tasks-cell:nth-child(2n+1):after {
-  content: '';
-  position: absolute;
-  top: 0px;
-  left: -94px;
-  width: 47px;
-  height: 100%;
-  display: block;
   background-color: rgba(255, 0, 0, 0.2);
+  display: block;
 }
 
 .table-tasks-cell:nth-child(2n) {
   background: #01983b;
 }
 
-.table-tasks-cell:nth-child(2n):before {
+.table-tasks-cell:nth-child(2n) .table-shadow-row {
   content: '';
   background: ;
   position: absolute;
@@ -1244,13 +1254,13 @@ header .container {
   background-color: rgba(1, 152, 59, 0.4);
 }
 
-.table-tasks-cell:nth-child(2n):after {
+.table-tasks-cell:nth-child(2n) .table-shadow-row:after {
   background: red;
   content: '';
   background: ;
   position: absolute;
   top: 0px;
-  right: -94px;
+  right: -47px;
   width: 47px;
   height: 100%;
   display: block;
@@ -1299,6 +1309,9 @@ header .container {
   margin: 0 0 10px 0;
 }
 
+.rewards {
+  margin-top: 18px;
+}
 .rewards-title {
   font-family: Arial;
   font-weight: bold;
@@ -1382,6 +1395,7 @@ header .container {
 
 .contacts-map-block .container {
   text-align: center;
+  height: 204px;
   position: relative;
   color: #fff;
   background: #01983b url(design/pattern.png) repeat;
@@ -1395,7 +1409,7 @@ header .container {
 }
 
 .contacts-title {
-  margin-bottom: 0;
+  margin: 21px 0 13px 0;
 }
 
 .enterprise-name,
@@ -1409,6 +1423,7 @@ header .container {
 .physical-address {
   font-size: 18px;
   line-height: 35%;
+  margin-bottom: 18px;
 }
 
 .duplicated-phones-email {
@@ -1417,6 +1432,7 @@ header .container {
 
 .additional-margin {
   margin-bottom: 32px;
+  margin-top: 10px;
 }
 
 .duplicated-phones-email .phone-email {
