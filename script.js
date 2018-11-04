@@ -17,6 +17,7 @@ $('.slider-2-container').owlCarousel({
     dots: false,
     items:5,
     autoplay:false,
+    margin:30,
 })
 
 function pop_up(){
