@@ -444,13 +444,13 @@ header .container {
   position: absolute;
   top: 0;
   height: auto;
-  width: 50%;
-}
+  }
 
 .video-image-left {
   left: 0;
   z-index: -2;
   position: absolute;
+  width: 50%
 }
 
 .video-image-right {
