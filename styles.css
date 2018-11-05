@@ -1474,6 +1474,7 @@ header .container {
   width: 100%;
   height: 312px;
   position: relative;
+  overflow: hidden;
 }
 
 .footer .container {
@@ -1512,6 +1513,7 @@ header .container {
   font-size: 12px;
   font-weight: bold;
   color: #fff;
+  text-decoration: none;
 }
 
 .copyright-line {
@@ -1548,12 +1550,28 @@ header .container {
   position: absolute;
   width: 100%;
   height: 312px;
-  top: 0;
-  left: 0;
   text-align: center;
   background: url(design/transparent-bubbles-1.png) no-repeat;
   display: block;
   z-index: -2;
+}
+
+.img-1 {
+  top: 76px;
+  left: 66px;
+  transform: scale(1, -1);
+}
+
+.img-2 {
+  top: -96px;
+  left: -230px;
+  transform: scale(-1, 1);
+}
+
+.img-3 {
+  top: 3px;
+  left: 147px;
+  transform: scale(1, -1);
 }
 
 .social-networks-duplicated {
