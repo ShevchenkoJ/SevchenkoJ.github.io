@@ -92,6 +92,7 @@ header .container {
 .block-with-slider {
   background: url(./design/bg-block-with-slider.png);
   height: 719px;
+  overflow: hidden;
 }
 
 .intro {
