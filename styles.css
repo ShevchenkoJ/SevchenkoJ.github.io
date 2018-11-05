@@ -547,7 +547,7 @@ header .container {
   border: 1px #000 solid;
 }
 
-.redactable-paragraphs-container {
+.redactable-paragraphs p {
   margin-top: 46px;
 }
 
