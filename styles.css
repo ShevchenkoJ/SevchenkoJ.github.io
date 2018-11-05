@@ -548,7 +548,7 @@ header .container {
 }
 
 .redactable-paragraphs p {
-  margin-top: 46px;
+  margin-top: 20px;
 }
 
 .redactable-paragraphs {
@@ -558,7 +558,7 @@ header .container {
   width: 830px;
   line-height: 17px;
   text-align: center;
-  margin: 22px 0 0 0;
+  margin: 50px 0 0 0;
   padding: 0;
   display: inline-block;
 }
