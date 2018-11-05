@@ -458,6 +458,7 @@ header .container {
   transform: scale(-1, 1);
   z-index: -2;
   position: absolute;
+  width: 53%;
 }
 
 .video-image-front {
